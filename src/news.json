@@ -1,0 +1,10 @@
+{
+    "reddit.com": [
+        "https://www.reddit.com/r/worldnews/new/.rss",
+        "https://www.reddit.com/r/news/new/.rss",
+        "https://www.reddit.com/r/finance/new/.rss",
+        "https://www.reddit.com/r/economics/new/.rss",
+        "https://www.reddit.com/r/investing/new/.rss",
+        "https://www.reddit.com/new/.rss"
+    ]
+}

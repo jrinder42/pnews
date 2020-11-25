@@ -1,0 +1,21 @@
+click_color = 5
+
+story_color = 4
+
+news_file = "news.json"
+
+meta_file = "meta.json"
+
+width = 80
+
+delay = 1
+
+buffer = 50
+
+display_buffer = 20
+
+browser = "chrome"
+
+topic = ""
+
+

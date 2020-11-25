@@ -1,0 +1,56 @@
+{
+    "reddit.com": {
+        "date": "%Y-%m-%dT%H:%M:%S%z",
+        "site": "",
+        "default": "http://www.reddit.com/r/worldnews/new/.rss",
+        "time": "updated"
+    },
+    "investing.com": {
+        "date": "%Y-%m-%d %H:%M:%S",
+        "site": "",
+        "default": "https://www.investing.com/rss/news.rss",
+        "time": "pubDate"
+    },
+    "news.ycombinator.com": {
+        "date": "%a, %d %b %Y %H:%M:%S %z",
+        "site": "",
+        "default": "https://news.ycombinator.com/rss",
+        "time": "pubDate"
+    },
+    "seekingalpha.com": {
+        "date": "%a, %d %b %Y %H:%M:%S %z",
+        "site": "https://seekingalpha.com/page/feeds",
+        "default": "https://seekingalpha.com/market_currents.xml",
+        "time": "pubDate"
+    },
+    "ft.com": {
+        "date": "%a, %d %b %Y %H:%M:%S %Z",
+        "site": "",
+        "default": "https://www.ft.com/?format=rss",
+        "time": "pubDate"
+    },
+    "cnn.com - NOT WORKING": {
+        "date": "%a, %d %b %Y %H:%M:%S %Z",
+        "site": "https://www.cnn.com/services/rss/",
+        "default": "http://rss.cnn.com/rss/cnn_topstories.rss",
+        "time": ""
+    },
+    "nytimes.com": {
+        "date": "%a, %d %b %Y %H:%M:%S %z",
+        "site": "https://archive.nytimes.com/www.nytimes.com/services/xml/rss/index.html",
+        "default": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+        "time": "pubDate"
+    },
+    "foxnews.com - NOT WORKING, Same issue as CNN": {
+        "date": "%a, %d %b %Y %H:%M:%S %Z",
+        "site": "https://www.foxnews.com/story/foxnews-com-rss-feeds",
+        "default": "http://feeds.foxnews.com/foxnews/latest",
+        "time": ""
+    },
+    "usnews.com - NOT WORKING": {
+        "date": "%a, %d %b %Y %H:%M:%S %Z",
+        "site": "https://www.usnews.com/info/features/rss-feeds",
+        "default": "https://www.usnews.com/rss/news",
+        "time": "pubDate"
+    }
+}

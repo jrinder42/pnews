@@ -1,0 +1,417 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>news module &mdash; pnews 0.1.0 documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+
+  
+  
+  
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="screen module" href="screen.html" />
+    <link rel="prev" title="src" href="modules.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home" alt="Documentation Home"> pnews
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="modules.html">src</a><ul class="current">
+<li class="toctree-l2 current"><a class="current reference internal" href="#">news module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="screen.html">screen module</a></li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">pnews</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="modules.html">src</a> &raquo;</li>
+        
+      <li>news module</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/news.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="module-news">
+<span id="news-module"></span><h1>news module<a class="headerlink" href="#module-news" title="Permalink to this headline">¶</a></h1>
+<dl class="py class">
+<dt id="news.News">
+<em class="property">class </em><code class="sig-prename descclassname">news.</code><code class="sig-name descname">News</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">delay</span><span class="o">=</span><span class="default_value">1</span></em>, <em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="headerlink" href="#news.News" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="screen.html#screen.Screen" title="screen.Screen"><code class="xref py py-class docutils literal notranslate"><span class="pre">screen.Screen</span></code></a></p>
+<p>News class</p>
+<dl class="py method">
+<dt id="news.News.change_params">
+<code class="sig-name descname">change_params</code><span class="sig-paren">(</span><em class="sig-param"><span class="o">*</span><span class="n">params</span></em><span class="sig-paren">)</span><a class="headerlink" href="#news.News.change_params" title="Permalink to this definition">¶</a></dt>
+<dd><p>dynamically change variables based on user input</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>params</strong> – dictionary of self-variables</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">None</span></code></p>
+</dd>
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>nothing</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="news.News.end_threads">
+<code class="sig-name descname">end_threads</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">q</span></em><span class="sig-paren">)</span><a class="headerlink" href="#news.News.end_threads" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>q</strong> – current screen story queue</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">None</span></code></p>
+</dd>
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>empty queue of items are still in it so the .join() function will work as intended</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="news.News.init_urls">
+<em class="property">static </em><code class="sig-name descname">init_urls</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#news.News.init_urls" title="Permalink to this definition">¶</a></dt>
+<dd><p>initializes urls to use</p>
+<dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><code class="xref py py-class docutils literal notranslate"><span class="pre">list</span></code></p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>list of urls</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="news.News.is_new">
+<code class="sig-name descname">is_new</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">entry</span></em>, <em class="sig-param"><span class="n">url</span></em><span class="sig-paren">)</span><a class="headerlink" href="#news.News.is_new" title="Permalink to this definition">¶</a></dt>
+<dd><p>checks if a story is new</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>entry</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">dict</span></code>) – stores the link, original story range (lower, upper) and most recent story range</p></li>
+<li><p><strong>url</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code>) – story url to open</p></li>
+</ul>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p><code class="xref py py-class docutils literal notranslate"><span class="pre">bool</span></code></p>
+</dd>
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>a boolean indicating if the story is new</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="news.News.open_url">
+<code class="sig-name descname">open_url</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">url</span></em>, <em class="sig-param"><span class="n">browser</span><span class="o">=</span><span class="default_value">'chrome'</span></em><span class="sig-paren">)</span><a class="headerlink" href="#news.News.open_url" title="Permalink to this definition">¶</a></dt>
+<dd><p>opens story in a browser</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>url</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code>) – story url to open</p></li>
+<li><p><strong>browser</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code>) – browser to open story in</p></li>
+</ul>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">None</span></code></p>
+</dd>
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>nothing</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="news.News.print_story">
+<code class="sig-name descname">print_story</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">pad</span></em>, <em class="sig-param"><span class="n">entry</span></em>, <em class="sig-param"><span class="n">width</span><span class="o">=</span><span class="default_value">80</span></em><span class="sig-paren">)</span><a class="headerlink" href="#news.News.print_story" title="Permalink to this definition">¶</a></dt>
+<dd><p>story printed to the screen</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>pad</strong> (<code class="xref py py-func docutils literal notranslate"><span class="pre">NewType()</span></code>(<code class="xref py py-data docutils literal notranslate"><span class="pre">cw</span></code>, <code class="xref py py-class docutils literal notranslate"><span class="pre">window</span></code>)) – curses window object</p></li>
+<li><p><strong>entry</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">dict</span></code>) – stores the link, original story range (lower, upper) and most recent story range</p></li>
+<li><p><strong>width</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">int</span></code>) – how many characters to display on the screen per line</p></li>
+</ul>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">None</span></code></p>
+</dd>
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>nothing</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="news.News.random_list">
+<em class="property">static </em><code class="sig-name descname">random_list</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">n</span></em><span class="sig-paren">)</span><a class="headerlink" href="#news.News.random_list" title="Permalink to this definition">¶</a></dt>
+<dd><p>random list of integers in [1, n]</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>n</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">int</span></code>) – number of elements in the random list</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p><code class="xref py py-class docutils literal notranslate"><span class="pre">list</span></code></p>
+</dd>
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>list in [1, n]</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="news.News.recent_story">
+<code class="sig-name descname">recent_story</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">entries</span></em>, <em class="sig-param"><span class="n">url</span></em><span class="sig-paren">)</span><a class="headerlink" href="#news.News.recent_story" title="Permalink to this definition">¶</a></dt>
+<dd><p>most recent story</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>entries</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">list</span></code>) – list of story metadata dictionaries</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p><code class="xref py py-class docutils literal notranslate"><span class="pre">dict</span></code></p>
+</dd>
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>story dictionary</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="news.News.run">
+<code class="sig-name descname">run</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#news.News.run" title="Permalink to this definition">¶</a></dt>
+<dd><p>print news stories to the screen as it comes in</p>
+<dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">None</span></code></p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>nothing</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="news.News.show">
+<code class="sig-name descname">show</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">window</span></em>, <em class="sig-param"><span class="n">entry</span></em>, <em class="sig-param"><span class="n">width</span><span class="o">=</span><span class="default_value">80</span></em>, <em class="sig-param"><span class="n">color</span><span class="o">=</span><span class="default_value">4</span></em><span class="sig-paren">)</span><a class="headerlink" href="#news.News.show" title="Permalink to this definition">¶</a></dt>
+<dd><p>adds the story to the proper location on the screen</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>window</strong> (<code class="xref py py-func docutils literal notranslate"><span class="pre">NewType()</span></code>(<code class="xref py py-data docutils literal notranslate"><span class="pre">cw</span></code>, <code class="xref py py-class docutils literal notranslate"><span class="pre">window</span></code>)) – curses window object</p></li>
+<li><p><strong>entry</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">dict</span></code>) – story dictionary metadata</p></li>
+<li><p><strong>width</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">int</span></code>) – width that the story displays on the screen</p></li>
+<li><p><strong>color</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">int</span></code>) – story display color</p></li>
+</ul>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></p>
+</dd>
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>a string to help end the show function</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py function">
+<dt id="news.main">
+<code class="sig-prename descclassname">news.</code><code class="sig-name descname">main</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#news.main" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">None</span></code></p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>handle optional program arguments based on the config.toml file in the src/ folder</p>
+</dd>
+</dl>
+</dd></dl>
+
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="screen.html" class="btn btn-neutral float-right" title="screen module" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="modules.html" class="btn btn-neutral float-left" title="src" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        
+        &copy; Copyright 2020, Jordan Rinder
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
