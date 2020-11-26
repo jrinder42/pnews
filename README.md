@@ -1,4 +1,4 @@
-## Command Line News - pNews
+## Command Line News - pnews
 
 pronounced like "news"
 
@@ -13,7 +13,7 @@ $ python setup.py install
 ### Run
 
 ```bash
-$ python news.py
+$ python src/news.py
 ```
 
 
