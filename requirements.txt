@@ -2,13 +2,5 @@
 pyfiglet
 typing
 
-json
-platform
-datetime
-random
-time
-subprocess
 toml
 feedparser
-queue
-argparse
