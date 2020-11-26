@@ -1,5 +1,5 @@
 ###### Requirements without Version Specifiers ######`
-curses
+windows-curses
 pyfiglet
 typing
 
