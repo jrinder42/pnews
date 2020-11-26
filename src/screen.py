@@ -9,7 +9,7 @@ class Screen():
     class that controls the initial look of the cli display / general cli display properties
     '''
 
-    cw = NewType('cw', type(curses.initscr()))
+    #cw = NewType('cw', type(curses.initscr()))
 
     def __init__(self, **kwargs) -> None:
         '''
@@ -167,7 +167,8 @@ class Screen():
         value = curses.newpad(nlines, ncols)
         self.__setattr__(name, value)
 
-    def window_update(self, window: cw) -> None:
+    #def window_update(self, window: cw) -> None:
+    def window_update(self, window) -> None:
         '''
         updates a curses window
 
@@ -177,7 +178,8 @@ class Screen():
 
         window.refresh()
 
-    def pad_update(self, pad: cw, *position: int) -> None:
+    #def pad_update(self, pad: cw, *position: int) -> None:
+    def pad_update(self, pad, *position: int) -> None:
         '''
         updates a curses pad
 

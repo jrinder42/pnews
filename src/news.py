@@ -127,7 +127,8 @@ class News(Screen):
         return random.sample(range(1, n + 1), n)  # random.shuffle(lst)
 
 
-    def show(self, window: Screen.cw, entry: dict, width: int = 80, color: int = 4) -> str:
+    #def show(self, window: Screen.cw, entry: dict, width: int = 80, color: int = 4) -> str:
+    def show(self, window, entry: dict, width: int = 80, color: int = 4) -> str:
         '''
         adds the story to the proper location on the screen
 
@@ -167,7 +168,8 @@ class News(Screen):
         return ''
 
 
-    def print_story(self, pad: Screen.cw, entry: dict, width: int = 80) -> None: # TODO - make more efficient for next version
+    #def print_story(self, pad: Screen.cw, entry: dict, width: int = 80) -> None: # TODO - make more efficient for next version
+    def print_story(self, pad, entry: dict, width: int = 80) -> None:  # TODO - make more efficient for next version
         '''
         story printed to the screen
 

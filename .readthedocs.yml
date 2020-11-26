@@ -19,6 +19,7 @@ build:
 formats:
   - pdf
   - epub
+  - html
 
 # Optionally set the version of Python and requirements required to build your docs
 python:
